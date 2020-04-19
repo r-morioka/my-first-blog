@@ -26,4 +26,13 @@
 　ID:morioka
   PWD:carryon5207
   mail:chaiyo_spin@q.vodafone.ne.jp
-  
+10. git repository(デプロイ)
+通常の方法で
+remote add origin https://github.com/r-morioka/my-first-blog.git
+git push -u origin master
+エラーが出る
+一度削除
+git remote rm origin
+remote add origin https://r-morioka:morioka2020@github.com/r-morioka/my-first-blog.git
+git push -u origin master
+成功
